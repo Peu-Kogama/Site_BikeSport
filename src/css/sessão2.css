@@ -1,0 +1,81 @@
+/* Seção 2 */
+
+#sessao {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: linear-gradient(180deg, #e9e9e9 58%, #b5afaf);
+    scroll-behavior: smooth;
+    gap:100px;
+}
+
+.moldura {
+    width: 500px;
+    height: 400px;
+    display: flex;
+}
+
+.molde1 {
+    width: 82vh;
+    height: 82vh;
+    clip-path: circle(50% at 0%);
+    background-color: #d40b0b;
+    align-self: center;
+    display: flex;
+    position: absolute;
+
+}
+
+.molde2 {
+    width: 67vh;
+    height: 67vh;
+    clip-path: circle(50% at 0%);
+    background-color: #1c257a;
+    align-self: center;
+    display: flex;
+}
+
+.molde3 {
+    width: 50vh;
+    height: 50vh;
+    clip-path: circle(50% at 0%);
+    background-color: #383636;
+    align-self: center;
+}
+
+#bike {
+    width: 370px;
+    align-self: center;
+    position: absolute;
+}
+
+.bikes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+.moldura2{
+    width: 500px;
+    height: 180px;
+    border: 2px solid #000000 ;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin:10vh 0;
+}
+
+.separador{
+    font-size: 23px;
+    gap:20px;
+    display: flex;
+    flex-direction: row;
+}

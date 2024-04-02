@@ -1,0 +1,101 @@
+/*Seção 2*/
+
+#sessao2 {
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(180deg, #b5afaf, #2c2b2b 60%);
+    gap: 100px;
+}
+
+.moldura3 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.moldura4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 40px;
+}
+
+
+.moldeS31 {
+    width: 70vh;
+    height: 70vh;
+    border-radius: 50%;
+    background-color: #1c257a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.moldeS32 {
+    width: 52vh;
+    height: 52vh;
+    border-radius: 50%;
+    background-color: #d40b0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moldeS33 {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    background-color: #eaeaee;
+}
+
+#quadro{
+    width: 260px;
+    height: 170px;
+    position: absolute;
+    rotate: 10deg;
+    margin-right: 80px;
+    object-fit: cover;
+
+}
+
+#sapatilha{
+    width:200px;
+    position:absolute;
+    margin: 80px 0px 0px 70px;
+    rotate:-5deg;
+}
+
+.acessorios {
+    width: 500px;
+    height: 200px;
+    border: 1px solid whitesmoke;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 17px;
+    margin: 10vh 0;
+}
+
+.acss1,
+.acss2 {
+    display: flex;
+    gap: 15px;
+}
+
+.line {
+    width: 400px;
+    height: 5px;
+    margin: 15px 0;
+    border: aliceblue 2px solid;
+    border-radius: 10px;
+}
