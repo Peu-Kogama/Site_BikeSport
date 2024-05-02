@@ -1,0 +1,119 @@
+@media screen and (max-width:500px) {
+
+    /*--home--*/
+    .cabecalho img {
+        width: 180px;
+    }
+
+    .slider {
+        height: 90vh;
+    }
+
+    .slider h1 {
+        font-size: 25px;
+    }
+
+    #slide1 {
+        height: 100%;
+    }
+
+    /*--seção1--*/
+    #sessao{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #bike {
+        opacity: 75%;
+    }
+
+    .moldura{
+        justify-content: center;
+    }
+
+    .moldura2 {
+        width: 400px;
+        height: 100px;
+        border-color: azure;
+        box-shadow: 1px 1px 5px black;
+    }
+
+    .molde1 {
+        width: 60vh;
+        height: 60vh;
+        clip-path: circle();
+        justify-content: center;
+    }
+
+    .molde2 {
+        width: 42vh;
+        height: 42vh;
+        clip-path: circle();
+        justify-content: center;
+    }
+
+    .molde3 {
+        width: 25vh;
+        height: 25vh;
+        clip-path: circle();
+    }
+
+    .bikes {
+        background-color: aqu;
+        justify-self: center;
+        position: absolute;
+        color: azure;
+        margin: 0;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    /*--seção2--*/
+    #quadro, #sapatilha{
+        opacity: 75%;
+    }
+
+    .moldura3{
+        position: absolute;
+        width: 300px;
+        margin:0;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    .acessorios{
+        width: 450px;
+        height: 180px;
+        margin: 5vh 0;
+        box-shadow: 1px 1px 5px black;
+    }
+
+    .moldeS31 {
+        width: 60vh;
+        height: 60vh;
+    }
+
+    .moldeS32 {
+        width: 42vh;
+        height: 42vh;
+    }
+
+    .moldeS33 {
+        width: 25vh;
+        height: 25vh;
+    }
+
+    /*--seção3--*/
+    .bordaC{
+        width: 100%;
+        color: aqua;
+    }
+    
+    .link-contato{
+        background-color: brown;
+        gap: 0;
+    }
+
+    .link-contato p{
+        font-size: 13px;
+    }
+
+}

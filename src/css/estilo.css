@@ -1,0 +1,345 @@
+/*..Inicio..*/
+* {
+    font-family: 'Khyay';
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #363541;
+}
+
+.cabecalho img {
+    width: 200px;
+    padding-top: 15px;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.slider h1 {
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+}
+
+.links {
+    gap: 10vh;
+    display: flex;
+    padding: 10px;
+}
+
+.texto-link {
+    cursor: pointer;
+    font-family: 'Sansation';
+    text-decoration: none;
+    color: black;
+
+}
+
+#slide1 {
+    width: 100%;
+    height: 560px;
+    display: flex;
+    opacity: 0.5;
+}
+
+
+/*..Seção 1..*/
+
+#sessao {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background: linear-gradient(180deg, #e9e9e9 58%, #b5afaf);
+    scroll-behavior: smooth;
+    gap: 100px;
+}
+
+.moldura {
+    width: 500px;
+    height: 400px;
+    display: flex;
+}
+
+.molde1 {
+    width: 82vh;
+    height: 82vh;
+    clip-path: circle(50% at 0%);
+    background-color: #d40b0b;
+    align-self: center;
+    display: flex;
+    position: absolute;
+
+}
+
+.molde2 {
+    width: 67vh;
+    height: 67vh;
+    clip-path: circle(50% at 0%);
+    background-color: #1c257a;
+    align-self: center;
+    display: flex;
+}
+
+.molde3 {
+    width: 50vh;
+    height: 50vh;
+    clip-path: circle(50% at 0%);
+    background-color: #383636;
+    align-self: center;
+}
+
+#bike {
+    width: 370px;
+    align-self: center;
+    position: absolute;
+}
+
+.bikes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    z-index: 1;
+}
+
+.moldura2 {
+    width: 500px;
+    height: 180px;
+    border: 2px solid #000000;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10vh 0;
+}
+
+.separador {
+    font-size: 23px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*..Seção 2..*/
+#sessao2 {
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(180deg, #b5afaf, #2c2b2b 60%);
+    gap: 100px;
+}
+
+.moldura3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    z-index: 1;
+}
+
+.moldura4 {
+    width: 50vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.moldeS31 {
+    width: 70vh;
+    height: 70vh;
+    border-radius: 50%;
+    background-color: #1c257a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.moldeS32 {
+    width: 52vh;
+    height: 52vh;
+    border-radius: 50%;
+    background-color: #d40b0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moldeS33 {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    background-color: #eaeaee;
+}
+
+#quadro {
+    width: 260px;
+    height: 170px;
+    position: absolute;
+    rotate: 10deg;
+    margin-right: 80px;
+    object-fit: cover;
+
+}
+
+#sapatilha {
+    width: 200px;
+    position: absolute;
+    margin: 80px 0px 0px 70px;
+    rotate: -5deg;
+}
+
+.acessorios {
+    width: 500px;
+    height: 200px;
+    border: 1px solid whitesmoke;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 17px;
+    margin: 10vh 0;
+}
+
+.acss1,
+.acss2 {
+    display: flex;
+    gap: 15px;
+}
+
+.line {
+    width: 400px;
+    height: 5px;
+    margin: 15px 0;
+    border: aliceblue 2px solid;
+    border-radius: 10px;
+}
+
+
+/*..Seção 3..*/
+#contatos {
+    width: 100%;
+    height: 100vh;
+    color: aliceblue;
+    background: linear-gradient(#2c2b2b 10%, rgb(14, 1, 34));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#rodape {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.link-contato {
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.link-contato div {
+    margin: 25px;
+}
+
+.link-contato p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bordaC {
+    width: 150vh;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+#espassador {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bordaS3 {
+    display: flex;
+    height: 5px;
+    width: 190px;
+    margin: 10px 0px;
+    flex-direction: column;
+    border: solid 2px aliceblue;
+    border-radius: 10px;
+}
+
+.telefone p {
+    padding: 5px;
+}
+
+.local p {
+    padding: 5px;
+}
+
+.social p {
+    padding: 5px;
+}
+
+.icones {
+    width: 20px;
+}
+
+.site {
+    font-size: 12px;
+}
+
+#rodape{
+    width: auto;
+    height: 90px;
+    align-items: center;
+    gap: 20px;
+}
+
+#rodape p{
+    text-align: center;
+    font-size: 10px;
+}
